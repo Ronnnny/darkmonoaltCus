@@ -3131,6 +3131,17 @@ textarea[id^="notes_"]{
     display: none;
   }
 
+/* Thread list */
+.forum_index tr,
+.forum_list tr {
+  background-color: #202020 !important;
+}
+
+/* Post tables */
+table.forum_post tr {
+  background-color: #202020 !important;
+}
+  
   .user_title {
     display: none
   }
