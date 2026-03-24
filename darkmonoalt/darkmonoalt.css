@@ -29,6 +29,19 @@ body {
   font: 13px 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 
+@media (max-width: 900px), (hover: none) and (pointer: coarse) {
+  /* Mobile-only overrides */
+
+  .forum_index tr,
+  .forum_list tr {
+    background-color: #2bff00 !important;
+  }
+
+  table.forum_post tr {
+    background-color: #2bff00 !important;
+  }
+}
+
 p, #userinfo_stats li:last-child {
   margin: 0;
 }
@@ -3131,16 +3144,7 @@ textarea[id^="notes_"]{
     display: none;
   }
 
-/* Thread list */
-.forum_index tr,
-.forum_list tr {
-  background-color: #2bff00 !important;
-}
 
-/* Post tables */
-table.forum_post tr {
-  background-color: #2bff00 !important;
-}
   
   .user_title {
     display: none
