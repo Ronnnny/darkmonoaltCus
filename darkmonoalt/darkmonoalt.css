@@ -33,11 +33,11 @@ body {
   /* Mobile-only overrides */
   .forum_index tr,
   .forum_list tr {
-    background-color: #1e1e1e !important;
+    background-color: #1b1b1b !important;
   }
 
   table.forum_post tr {
-    background-color: #1e1e1e !important;
+    background-color: #1b1b1b !important;
   }
 }
 
