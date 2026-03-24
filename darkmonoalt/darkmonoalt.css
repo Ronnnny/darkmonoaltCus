@@ -29,16 +29,15 @@ body {
   font: 13px 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 
+/* Mobile-only overrides */
 @media (max-width: 900px), (hover: none) and (pointer: coarse) {
-  /* Mobile-only overrides */
-
   .forum_index tr,
   .forum_list tr {
-    background-color: #2bff00 !important;
+    background-color: #1e1e1e !important;
   }
 
   table.forum_post tr {
-    background-color: #2bff00 !important;
+    background-color: #1e1e1e !important;
   }
 }
 
