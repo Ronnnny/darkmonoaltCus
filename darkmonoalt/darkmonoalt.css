@@ -3134,12 +3134,12 @@ textarea[id^="notes_"]{
 /* Thread list */
 .forum_index tr,
 .forum_list tr {
-  background-color: #202020 !important;
+  background-color: #1e1e1e !important;
 }
 
 /* Post tables */
 table.forum_post tr {
-  background-color: #202020 !important;
+  background-color: #1e1e1e !important;
 }
   
   .user_title {
